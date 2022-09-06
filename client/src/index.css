@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav {
+  height: 80px;
+}
+
+.messageText {
+  margin-top: 80px;
+  height: calc(100vh - 80px);
+}
+
+.chatarea {
+  height: calc(100vh - 80px);
+  max-height: calc(100vh - 80px);
+}
